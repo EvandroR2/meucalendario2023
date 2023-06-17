@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: #333;
+
+}
+.wraper {
+    max-width: 760px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+.titulo__mes {
+    text-align: center;
+    color: #fff;
+    font-size: 76px;
+}
+.days_week {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #F86078;
+    margin-bottom: 8px;
+}
+
+.days_week p {
+    display: inline-block;
+    width: 14.2%;
+    color: #F86078;
+    font-weight: bold;
+    
+
+}
+
+.number-days {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.number-days p {
+    display: inline-block;
+    width: 14.2%;
+    color: #555;
+    margin: 8px 0;
+}
+.day-selected {
+    font-weight: bold;
+}
+.mes-anterios {
+    opacity: 0.5;
+}
